@@ -66,13 +66,15 @@ def main():
     # Feazy chat component
     st.markdown("### Start Your Exploration")
     feazy_html = """
+    <div style="height: 600px;">
     <script type="module" src="https://unpkg.com/feazy-plugin/dist/feazy-chat-component.es.js"></script>
     <chat-component 
         theme="neutral-theme"
         promptId="4a443b92-e52a-44db-a507-17457ec3de14"
         chatTitle="Coaching Explorer"
         showDataProtection="true"
-        baseUrl="">
+        isDialogVisible="true"
+        baseUrl="https://api.feazy.ai">
     </chat-component>
     
     <style>
@@ -91,6 +93,7 @@ def main():
             --send-button-color: #ffffff;
         }
     </style>
+    </div>
     """
     
     # Render the Feazy chat component
