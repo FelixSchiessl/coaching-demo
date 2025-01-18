@@ -67,7 +67,7 @@ def main():
     <script type="module" src="https://unpkg.com/feazy-plugin/dist/feazy-chat-component.es.js"></script>
     <chat-component 
         theme="neutral-theme"
-        promptId="28c99f7b-ce8a-4693-8c03-e887962eb1ad"
+        promptId="d0611fb2-7061-4b8d-aa9c-31ed2ee484f5"
         chatTitle="Matthew Hansen Coaching Assistant"
         showDataProtection="true"
         isDialogVisible="true"
